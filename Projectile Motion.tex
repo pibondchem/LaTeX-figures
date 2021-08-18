@@ -9,9 +9,9 @@
 \usepackage{amsmath}
 \usepackage{pgfplots}
 \pgfplotsset{compat=newest}
-\title{}
+\title{Projectile Motion}
 \author{Dr. Matthew Riehl}
-\date {17 March 2021}
+\date {17 August 2021}
 
 
 
@@ -59,7 +59,8 @@
 		\end{tikzpicture}
 		where the arrows represent the \colorbox{pink!50}{\emph{velocity}} in the $x$- and $y$-directions.  The parametric equations for \colorbox{pink!50}{\emph{position} vs. time} are: $$\vec{x}=(12\cos\theta_0) t$$ and $$\vec{y}=(12\sin\theta_0) t-\frac{1}{2}\cdot9.81 t^2$$ where $\theta_0=37^\circ$
 	\vspace{3cm}
-	
+	\newpage
+	This is the same picture, but with different code. This requires the pgfplots package while the first requires only tikz.\\
 	\begin{tikzpicture}
 		\begin{axis}[width=15cm, height=5cm,xlabel={$x$}, ylabel={$y$},grid, thick,ymin=-1,
 			ymax=3,
